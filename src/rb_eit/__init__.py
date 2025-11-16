@@ -17,3 +17,7 @@ __all__ = [
 ]
 
 __version__ = "0.1.0"
+
+# Visualization module is available as rb_eit.visualization
+# Import it explicitly if needed:
+# from rb_eit.visualization import plot_eit_spectrum, plot_energy_level_diagram, ...
