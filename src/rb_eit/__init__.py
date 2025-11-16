@@ -5,6 +5,7 @@ from .laser_field import LaserField
 from .rb87_system import Rb87System
 from .rb85_system import Rb85System
 from .double_lambda import DoubleLambdaSystem
+from .bloch_solver import BlochSolver, TwoLevelBlochSolver
 
 __all__ = [
     "AtomicLevel",
@@ -14,6 +15,8 @@ __all__ = [
     "Rb87System",
     "Rb85System",
     "DoubleLambdaSystem",
+    "BlochSolver",
+    "TwoLevelBlochSolver",
 ]
 
 __version__ = "0.1.0"
