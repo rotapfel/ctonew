@@ -19,7 +19,8 @@ class Transition:
         elif self.frequency is None:
             from .constants import C
             self.frequency = C / self.wavelength
-        elif self.wavelength is None:
+        
+        if self.wavelength is None and self.frequency is not None:
             from .constants import C
             self.wavelength = C / self.frequency
     

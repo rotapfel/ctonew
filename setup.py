@@ -17,5 +17,8 @@ setup(
             "pytest>=7.0.0",
             "pytest-cov>=3.0.0",
         ],
+        "viz": [
+            "matplotlib>=3.3.0",
+        ],
     },
 )
