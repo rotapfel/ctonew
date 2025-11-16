@@ -46,3 +46,9 @@ venv.bak/
 
 .DS_Store
 Thumbs.db
+
+# Generated plots and visualizations
+*.png
+*.html
+!examples/*.png
+!docs/*.png

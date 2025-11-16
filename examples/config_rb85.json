@@ -1,0 +1,10 @@
+{
+  "isotope": "Rb85",
+  "ground_state_1_label": "5S_1/2, F=2",
+  "ground_state_2_label": "5S_1/2, F=3",
+  "excited_state_label": "5P_3/2, F=3",
+  "pump_rabi_frequency": 94247779.607693806,
+  "probe_rabi_frequency": 12566370.614359174,
+  "pump_detuning": 0.0,
+  "probe_detuning": 0.0
+}
