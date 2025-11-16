@@ -1,0 +1,53 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Rb Double-Lambda EIT Atomic System Model"
+version: 0.1.0
+date-released: 2024-11-16
+authors:
+  - name: "CTO.new"
+repository-code: "https://github.com/yourusername/rb_eit"
+keywords:
+  - "electromagnetically induced transparency"
+  - "EIT"
+  - "rubidium"
+  - "atomic physics"
+  - "quantum optics"
+  - "optical Bloch equations"
+license: MIT
+abstract: >
+  A Python package for modeling Rubidium (Rb-87 and Rb-85) atomic systems
+  in double-lambda Electromagnetically Induced Transparency (EIT) configurations.
+  This simulator provides realistic atomic parameters, quantum state modeling,
+  and EIT susceptibility calculations for atomic physics research and education.
+references:
+  - type: article
+    authors:
+      - family-names: Fleischhauer
+        given-names: Michael
+      - family-names: Imamoglu
+        given-names: Atac
+      - family-names: Marangos
+        given-names: J. P.
+    title: "Electromagnetically induced transparency: Optics in coherent media"
+    journal: "Reviews of Modern Physics"
+    volume: 77
+    issue: 2
+    year: 2005
+    doi: 10.1103/RevModPhys.77.633
+  - type: misc
+    authors:
+      - family-names: Steck
+        given-names: Daniel A.
+    title: "Rubidium 87 D Line Data"
+    year: 2021
+    notes: "revision 2.2.2"
+    url: "http://steck.us/alkalidata"
+  - type: misc
+    authors:
+      - family-names: Steck
+        given-names: Daniel A.
+    title: "Rubidium 85 D Line Data"
+    year: 2021
+    notes: "revision 2.2.2"
+    url: "http://steck.us/alkalidata"
